@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 142px;
+    overflow: hidden;
 }
 .infor__content{
     width: 848px;
@@ -38,7 +39,7 @@
     margin: 12px 0 0 0;
     color: #091156;
 }
-.infor__des{
+.infor__description{
     width: 848px;
     height: 51px;
     gap: 0px;
@@ -70,7 +71,7 @@
     border-radius: 50px;
     box-shadow: 0px 25px 50px 25px rgba(246, 247, 255, 1);
 }
-.pro__post{
+.professional__post{
     width: 150px;
     height: 20px;
     font-size: 16px;
@@ -82,7 +83,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.pro__name{
+.professional__name{
     width: 263px;
     height: 37px;
     font-size: 18px;
@@ -94,7 +95,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.pro__des{
+.professional__description{
     width: 270px;
     height: 63px;
     font-size: 14px;

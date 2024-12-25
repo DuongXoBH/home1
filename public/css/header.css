@@ -1,15 +1,52 @@
-.head{  
+.header__bg{
     width: 100%;
-    height: 805px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background-image: url("../images/bubble.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.bubble-2{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top:0;
+    margin: 0;
+    background-image: url("../images/bubble-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+}
+.header{  
+    width: 100%;
+    /* height: 805px; */
     overflow: hidden;
 }
-.head__nav{
+.header__nav{
     width: 100%;
     height: 63px;
     margin-top: 41px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.nav__img{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+.nav__text{
+    width: 161px;
+    height: 34px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #091156;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 .nav__list{
     display: flex;
@@ -56,7 +93,7 @@
     border: 0;
     border-radius: 50px;
 }
-.head__content{
+.header__content{
     width: 100%;
     height: 550px;
     margin: 159px 0 0 0;
@@ -64,13 +101,13 @@
     overflow: hidden;
     display: flex;
 }
-.head__des{
+.header__description{
     width: 520px;
     overflow: auto;
     padding: 53px 0;
     color: #091156;
 }
-.head__tittle{
+.header__tittle{
     width: 430px;
     height: 128px;
     gap: 0px;
@@ -84,7 +121,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.head__desc{
+.header__bonus{
     width: 474px;
     height: 54px;
     gap: 0px;
@@ -99,7 +136,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;    
 }
-.head__btn{
+.header__btn{
     width: 200px;
     height: 60px;
     margin-top: 28px;
@@ -112,7 +149,12 @@
     background-color: #FF64AE;
     border: 0;
 }
-.head__banner{
+.header__banner{
     width: 630px;
     float: left;
+}
+.slide__btn{
+    width: 100%;
+    padding: 0 auto;
+    text-align: center;
 }

@@ -1,9 +1,0 @@
-.contactUs__bg{
-    width: 1440px;
-    height: 825px;
-    position: absolute;
-    top: 3169px;
-    background-image: url("../images/BackgroundBubbleContactUs.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-}

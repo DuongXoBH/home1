@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%; 
     margin-top: 133px;
+    overflow: hidden;
 }
 .service__content{
     width:800px;
@@ -40,7 +41,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.service__des{
+.service__description{
     width: 848px;
     height: 51px;
     gap: 0px;
