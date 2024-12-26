@@ -22,6 +22,7 @@
 .footer{
     width: 100%;
     margin-top: 295px;
+    position: relative;
     display: flex;
     flex-direction: column;
     color: rgba(215, 219, 255, 1);
@@ -61,9 +62,25 @@
     font-weight: 400;
     line-height: 24px;
 }
+.footer__address{
+    width: 297px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
 .footer__bonus{
     display: flex;
-    gap: 40px;
+    padding-left: 2px;
+    gap: 44px;
 }
 .footer__bonus p{
     margin: 0;
@@ -138,7 +155,7 @@
     letter-spacing: 0.1em;
     text-align: left;
     margin: 0 0 16px 0;
-    padding: 0;
+    padding: 0 0 0 2px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: rgba(255, 255, 255, 1);
@@ -175,8 +192,8 @@
     position: absolute;
     width: 36px;
     height: 36px;
-    right: 70px;
-    top: 4783px;
+    right: 10px;
+    bottom: 85px;
     padding-block: 0px;
     padding-inline: 0px;
     cursor: pointer;
