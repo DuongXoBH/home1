@@ -85,15 +85,14 @@
     z-index: 1;
     border-radius: 50px;
     box-shadow: 0px 25px 50px 25px rgba(246, 247, 255, 1);
-}
-.infor__card:hover .professional__name{
-    height: 37px;
-    /* margin: 20px 0 0 0; */
+    transition-duration: 0.5s
 }
 .infor__card:hover .professional__description{
     height: 49px;
-    margin: 20px 0 0 0;
-    padding: 0 0;
+    margin: 6px 0 0 0;
+}
+.infor__card:hover .infor__media{
+    margin-top: 52px;
 }
 .professional__post{
     width: 150px;
